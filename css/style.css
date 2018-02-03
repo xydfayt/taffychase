@@ -1,0 +1,623 @@
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
+
+html, body {
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  margin: auto auto;
+}
+
+.sidenav {
+    min-height: 100vh;
+    height: 100%;
+    width: 300px;
+    float: left;
+    background-color:#005B9C;
+    position: relative;
+    -webkit-box-shadow: -1px 3px 29px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 3px 29px 0px rgba(0,0,0,0.5);
+    box-shadow: -1px 3px 29px 0px rgba(0,0,0,0.5);
+}
+
+.sidenav a{
+    color: #FFF;
+}
+.sidenav li{
+    color:#FFF;
+    padding:30px 10px;
+    font-size: 16px;
+    font-weight: 550;
+    position: relative;
+    max-height: 100px;
+}
+.sidenav li.plan-tab{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sidenav .plan-tab{
+    background-color: #003D68;
+}
+.plan-tab.active:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 91, 156, 0);
+    border-left-color: #003D68;
+    border-width: 15px;
+    margin-top: -15px;
+}
+.sidenav .why-tab{
+    background-color: #034E84;
+}
+.why-tab.active:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 91, 156, 0);
+    border-left-color: #034E84;
+    border-width: 15px;
+    margin-top: -15px;
+}
+.sidenav .login-tab{
+    background-color: #0060A4;
+}
+.login-tab.active:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 91, 156, 0);
+    border-left-color: #0060A4;
+    border-width: 15px;
+    margin-top: -15px;
+}
+.head-logo{
+    height: 75px;
+    background-color: #FFF;
+    background-image: url(../img/chase.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 230px 40px;
+    padding:30px;
+}
+#content{
+    min-height: 100vh;
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 1065px;
+    float: left;
+    position: relative;
+    display: block !important;
+}
+#wrap {
+    position: absolute;
+    height: 100%;
+    overflow-y: hidden;
+    }
+.login-box{
+    margin-left: 160px;
+    background-color: rgba(255,255,255,1);
+    width:700px;
+    min-height:270px;
+    border-radius: 0px;
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    border: none;
+    -webkit-box-shadow: -2px 8px 29px -8px rgba(0,0,0,0.5);
+-moz-box-shadow: -2px 8px 29px -8px rgba(0,0,0,0.5);
+box-shadow: -2px 8px 29px -8px rgba(0,0,0,0.5);
+}
+.login-title{
+    color:#0060A4;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.login-input{
+    border-radius: 0px;
+    border:none;
+    -webkit-box-shadow: -7px 8px 29px -8px rgba(0,0,0,0.5);
+-moz-box-shadow: -7px 8px 29px -8px rgba(0,0,0,0.5);
+box-shadow: -7px 8px 29px -8px rgba(0,0,0,0.5);
+}
+.ft-btn{
+    border-radius: 0px;
+    background-color: #ABB7B7;
+    color: #FFF;
+    font-weight: 550;
+    margin-top: 16px;
+}
+.login-btn{
+    border-radius: 0px;
+    font-weight: 550;
+    margin-top: 16px;
+}
+.foot-title{
+    text-align: center;
+    margin-top: 40px;
+    font-family: raleway, sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.425em;
+    margin-bottom: 0px;
+}
+.chase-logo{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: -65px;
+    top: 10px;
+}
+.quote-text{
+    font-family: raleway, sans-serif;
+    text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+    font-size: 40px;
+}
+.q1{
+    margin-bottom: 0px;
+    margin-left: 110px;
+}
+.q2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 250px;
+}
+.q3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 330px;
+}
+.q-blue{
+    font-size: 43px;
+    color:#0060A4;
+    font-weight: 500;
+}
+.profile-box{
+    color:#FFF;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-family: raleway, sans-serif;
+    text-shadow: -2px 1px 1px rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+    background-color: #003D68;
+}
+.profile-img{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    border:1px solid #FF8181;
+    background-color: #FF8181;
+}
+.profile-name{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.profile-company{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.profile-address{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#home-content{
+    min-height: 100vh;
+    padding:50px;
+    width: 1065px;
+    float: left;
+    position: relative;
+    margin: 0 auto;
+}
+.future-title{
+    text-align: center;
+    color:#0060A4;
+    margin-top: 0px;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+.main-logo{
+    width:900px;
+    min-height: 300px;
+    background-image: url(../img/chaselogo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;   
+    margin-left: 20px;
+    margin-top: 70px;
+    position: relative;
+    font-family: raleway, sans-serif;
+    font-weight: 200;
+}
+.foot-title-home{
+    text-align: center;
+    margin-top: 132px;
+    font-family: raleway, sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.425em;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 28px;
+}
+.mlogo-text-1{
+    font-weight: 300;
+    position: absolute;
+}
+.mlogo-text-1:after{
+  background: #0060A4;
+  height: 3px;
+  width: 310px;
+  content: '';
+  margin-top: 40px;
+  margin-left: -230px;
+  position: absolute;   
+}
+.mlogo-text-2{
+    font-weight: 300;
+    right:0;
+    position: absolute;
+}
+.mlogo-text-2:after{
+  background: #0060A4;
+  height: 3px;
+  width: 310px;
+  content: '';
+  margin-top: 40px;
+  margin-left: -310px;
+  position: absolute;   
+}
+.mlogo-text-3{
+    font-weight: 300;
+    position: absolute;
+    top:330px;
+    left:200px;
+}
+.mlogo-text-3:after{
+  background: #0060A4;
+  height: 3px;
+  width: 250px;
+  content: '';
+  margin-top: 40px;
+  margin-left: -200px;
+  position: absolute;   
+}
+.mlogo-text-4{
+    font-weight: 300;
+    position: absolute;
+    top:330px;
+    left:492px;
+}
+.mlogo-text-4:after{
+  background: #0060A4;
+  height: 95px;
+  width: 3px;
+  content: '';
+  margin-top: -52px;
+  margin-left: -58px;
+  position: absolute;   
+}
+.navbar-blue{
+    background-color: #0060A4;
+    margin-bottom: 0px;
+    min-width:1350px;
+    -webkit-box-shadow: -2px 8px 29px -8px rgba(0,0,0,0.5);
+-moz-box-shadow: -2px 8px 29px -8px rgba(0,0,0,0.5);
+box-shadow: -2px 8px 29px -8px rgba(0,0,0,0.5);
+}
+.head-logo-2{
+    height: 75px;
+    width: 280px;
+    background-color: #FFF;
+    background-image: url(../img/chase.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 230px 40px;
+    padding-left:30px !important    ;
+}
+.container-fluid{
+    padding-left: 0;
+}
+.nav-title{
+    float: left;
+    color: #FFF;
+    font-family: raleway, sans-serif;
+    margin-left: 15px;
+    font-weight: 200;
+    font-size: 25px;
+}
+.report-title{
+    font-weight: 200;
+    font-family: raleway, sans-serif;
+}
+.report-sub-title{
+    font-weight: 500;
+    font-family: raleway, sans-serif;
+}
+.nav-profile-img{
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    margin-right: 8px;
+    border-color: #FF8181;
+    background-color: #FF8181;
+}
+.nav-drop{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    color: #FFF !important;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #003D68;
+}
+#main-wrap{
+    background-color: #B1DBF8;
+    height: auto;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width:1350px;
+}
+.main-panel{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 0;
+    -webkit-box-shadow: -2px 8px 29px -8px rgba(0,0,0,0.5);
+    -moz-box-shadow: -2px 8px 29px -8px rgba(0,0,0,0.5);
+    box-shadow: -2px 8px 29px -8px rgba(0,0,0,0.5);
+    width:1330px;
+}
+.table-wrap{
+  width: 100%;
+  margin: auto auto;
+}
+.table-sidebar{
+    margin-top: 80px;
+    height: 100%;
+    width: 200px;
+    float: left;    
+}
+.table-content{
+    width: 1050px;
+    float: left;
+    margin-left: 20px;
+}
+.table-lt{
+    font-weight: 700;
+    font-size: 14px;
+}
+.table-mt{
+    font-weight: 700;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.nav-label{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.cm-width{
+    width: 250px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.c-width{
+    width: 130px;
+    font-size: 14px;
+    padding-right: 20px;
+}
+.col-name{
+    width: 190px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.col-box{
+    background-color: #B1DBF8;
+    width: 130px;
+    border:1px solid #000;
+    border-style: solid;
+    font-size: 14px;
+}
+.col-num{
+    font-weight: 700;
+    width: 70px;
+    font-size: 12px;
+}
+.snav-title:after{
+  background: #0060A4;
+  height: 3px;
+  width: 1285px;
+  content: '';
+  margin-top: 25px;
+  margin-left: -130px;
+  position: absolute;   
+}
+.custom-menu {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    font-family: sans-serif;
+    background: #FFF;
+    color: #333;
+    width: auto;
+    height: auto;
+    padding-left: 0px;
+    border-radius: 5px;list-style-type: none;
+}
+
+.custom-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.custom-menu li:hover {
+    background-color: #DEF;
+}
+.caret-right {
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+    border-left: 6px solid;
+    display: inline-block;
+    height: 0;
+    width: 0;
+    margin-left: 3px;
+    margin-top: 1px;
+}
+.table-nav{
+    margin-top: 20px;
+}
+.btn-chase{
+    border-radius: 0px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.table-nav .form-group{
+    margin-bottom: 5px;
+}
+.table-body{
+    margin-top: 20px;
+}
+thead, tbody,tfoot { box-sizing: border-box;display: block; }
+.tbody-main{    
+    height: 240px;
+  overflow-y: auto;
+  width: 100%;
+  margin-left: 35px;
+}
+.tbody-head{
+  margin-left: 80px;
+}
+.thead-m{
+    margin-left: -34px;
+}
+.tfoot-m{
+    margin-left: -20px;
+}
+.thead-b{
+    margin-left: -20px;
+}
+.thead-f{
+    margin-left: -10px;
+}
+.c-foot{
+    font-weight: 700;
+    width: 130px;
+    font-size: 12px;
+}
+.table-head{
+    margin-left: 15px;
+}
+.table-bottom{
+    margin-left: 15px;
+}
+.thick-line{
+    border:6px solid #0060A4;
+}
+.thin-line{
+    border:2px solid #0060A4;
+    margin-top: 28px;
+    width: 100%;
+}
+
+.col-bottom{
+    font-weight: 600;
+    width: 130px;
+    font-size: 12px;
+}
+.col-t-bottom{
+    font-weight: 700;
+    font-size: 12px;
+}
+.main-footer{
+    text-align: right;
+    margin-right: 20px;
+    font-family: raleway, sans-serif;
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 16px;
+}
+#table-creditor{
+
+}
+#table-creditor .c-width{
+    padding-right: 0px;
+}
+#table-creditor .col-num{
+    width:130px;
+    font-weight: 800;
+}
+#table-creditor .table-head{
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+#table-creditor .tbody-head{
+    margin-left: 0px;
+}
+#table-creditor .thead-m{
+    margin-left: 10px;
+}
+#table-creditor .col-name{
+    width:250px;
+}
+#table-creditor .c-height{
+    height:24px;
+}
+#table-creditor .table-st{
+    font-weight: 500;
+    font-size: 12px;
+}
+#table-creditor .table-body{
+    margin-top: 60px;
+}
+#table-creditor .table-bottom{
+    margin-left: 0px;
+}
+.pad-r20{
+    padding-right: 20px !important;
+}
+#table-report .table-body{
+    margin-top: 50px;
+}
+#table-report .thead-b{
+    margin-left: -10px;
+}
+#table-report .col-num{
+    width:130px;
+}
+#table-report .table-st{
+    font-weight: 500;
+    font-size: 12px;
+}
+#table-report .c-width{
+   padding-right: 0px;
+}
